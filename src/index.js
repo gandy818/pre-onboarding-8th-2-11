@@ -5,11 +5,12 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Index from "./pages/index";
+import Main from "./pages/main";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Index />,
+    element: <Main />,
   },
 ]);
 
